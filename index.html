@@ -1,8 +1,7 @@
-<head>   
-
-    
+<head>
+<!-- Meta Pixel Code -->
 <script>
-    var __cbSdkHost = "https://bh17-site17.sg-qa-site17.com/";
+    var __cbSdkHost = "https://d325f9p35jel8o.cloudfront.net/";
     var __cbSdkSettings={'cbq':{destinations:[{name:"cloudbridge"},],
     "host":__cbSdkHost,"globalVar":"cbq",}};
     !function(a,h,e,v,n,t,s)
@@ -12,12 +11,15 @@
       n.queue=[];t=h.createElement(e);t.async=!0;
       t.src=v;s=h.getElementsByTagName(e)[0];
       s.parentNode.insertBefore(t,s)}(window, document,'script',
-      "https://d29mmbuz8mkrhw.cloudfront.net/"+'sdk/capig-events.js');
-    cbq('init', "8716622971265419089");
-    cbq('loadConfig', "8716622971265419089");
+      "https://d325f9p35jel8o.cloudfront.net/"+'sdk/capig-events.js');
+    cbq('init', "4343351063286257554");
+    cbq('loadConfig', "4343351063286257554");
     cbq('track', 'PageView');
     </script>
-    
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=4343351063286257554&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
 <meta name="facebook-domain-verification" content="qowwrhpyni79cf2pms3zixyrxoh3b4" />
 <title>pixel test page</title>
 </head>
@@ -48,11 +50,10 @@ document.getElementById('checkoutButton').addEventListener('click', function() {
 }, false);
 
 document.getElementById('purchaseButton').addEventListener('click', function() {
-  cbq('track', 'Purchase');
-    , {
-    value: yuhyu,
+  cbq('track', 'Purchase', {
+    value: 100,
     currency: 'USD',
-  }
+  });
 }, false);
 
 document.getElementById('subcribeButton').addEventListener('click', function() {
