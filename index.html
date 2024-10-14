@@ -44,6 +44,7 @@
         <li><button id="purchaseButton" type="button">Purchase</button></li>
         <li><button id="subcribeButton" type="button">Subscribe</button></li>
         <li><button id="registrationButton" type="button">Registration</button></li>
+      <li><button id="bharatButton" type="button">bharat</button></li>
     </ul>
     </div>
 
@@ -73,6 +74,10 @@ document.getElementById('subcribeButton').addEventListener('click', function() {
 
 document.getElementById('registrationButton').addEventListener('click', function() {
   cbq('track', 'CompleteRegistration');
+}, false);
+
+  document.getElementById('bharatButton').addEventListener('click', function() {
+  cbq('track', 'bharat');
 }, false);
 </script>
 </body>
